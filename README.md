@@ -3,8 +3,8 @@ Deep learning based - Image To [3D Color Lookup tables](https://en.wikipedia.org
 All tools for training the model.
 
 ## Objective:
-Color LUTs are a storage medium used to map a set of color values to another, this is widely used in photogeraphy and cinema to preserve the hard work of color artists from one scene to another. The creation of a Color LUT is time-consuming and requires the expertise of [color grading artists](https://en.wikipedia.org/wiki/Color_grading).
-The objective of this machine learning model is to automate the creation of LUT from source material (e.g. a movie or photo) with understanding og color, light and the scene it could be possible to transform the image to a universal Color lookup table.
+Color LUTs is a storage medium used to map a set of color values to another, this is widely used in photogeraphy and cinema to preserve the hard work of color artists from one scene to another. The creation of a Color LUT is time-consuming and requires the expertise of [color grading artists](https://en.wikipedia.org/wiki/Color_grading).
+The objective of this machine learning model is to automate the creation of LUT from source material (e.g. a movie or photo) - with an understanding of color, light and the scene it could be possible to transform the image to a universal Color lookup table.
 
 ## Dataset:
  - Movie stills from a wide variety of movies from the moviestillsdb.com database. Crawled using Python and Selenium.
