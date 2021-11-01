@@ -16,4 +16,4 @@ The model uses a convolutional network where the input from the database is the 
 
 
 ## Future improvments
-With the same dataset it would be possible to create a network that inverts the effects of color luts making the stills more neutral. Such a network could learn how to remove the effects color luts. This could be a better foundation for creating a new dataset where the movie stills are 
+With the same dataset it would be possible to create a network that inverts the effects of color luts making the stills more neutral. Such a network could learn how to remove the effects color luts. This could be a better foundation for creating a new dataset where the movie stills are neutral to begin with and later altered. As the current implementation makes it so that the still in reality has two color grades applied (the original and the dataset LUT).
