@@ -1,4 +1,4 @@
-# ImageToColorLUT
+# Image To Color Lookup Table
 Deep learning based - Image To [3D Color Lookup tables](https://en.wikipedia.org/wiki/3D_lookup_table)
 All tools for training the model.
 
