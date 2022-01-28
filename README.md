@@ -15,8 +15,8 @@ The objective of this machine learning model is to automate the creation of LUT 
 The model uses a convolutional network where the input from the database is the altered movie still, and the desired output is the LUT used to alter said movie still.
 
 ## Web UI
-[ImageToColorLUT flask web app](https://github.com/TheVoxcraft/Pix2LUT-Flask/)
-[TFLite release of model](https://github.com/TheVoxcraft/Pix2LUT-Flask/releases)
+ - [ImageToColorLUT flask web app](https://github.com/TheVoxcraft/Pix2LUT-Flask/)
+ - [TFLite release of model](https://github.com/TheVoxcraft/Pix2LUT-Flask/releases)
 
 ## Future improvments
 With the same dataset it would be possible to create a network that inverts the effects of color luts making the stills more neutral. Such a network could learn how to remove the effects color luts. This could be a better foundation for creating a new dataset where the movie stills are neutral to begin with and later altered. As the current implementation makes it so that the still in reality has two color grades applied (the original and the dataset LUT).
